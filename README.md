@@ -13,8 +13,7 @@ http://web.stanford.edu/class/cs20si/assignments/a2.pdf
 
 * Python 3.5.2 (later versions than Python 3.5.x are incompatible with TensorFlow’s API)
 * TensorFlow API r1.2 
-* OS: Windows 7 64-bits
-* Hardware: Intel CPU without external GPU’s
+* OS: Windows 7 64-bits or later
 
 ## External libraries needed
 
