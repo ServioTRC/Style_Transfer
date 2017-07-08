@@ -24,6 +24,20 @@ http://web.stanford.edu/class/cs20si/assignments/a2.pdf
 * PIL
   * http://www.pythonware.com/products/pil/
 
+## Files brief explanation
+
+* style_tranfer_userpromt.py
+    * This file contains the main flow from the program. It starts asking the user the specifications for the style transfer, later verifies or downloads a pretrained model, and finally starts to train and optimize the style transfer.
+
+* vgg_model.py
+    * Module that contains the main functions for the definition of the vgg convolutional network, calculations of the weights and biases, and the average pool from the layers.
+
+* utils.py
+    * Module where is located functions for downloading the pretrained vgg model, resizing the input images, generating the noise in the image, saving the images, calculating the time remaining from the complete procedure, and finally showing the image to the user once the procedure is over.
+
+* data_input.py
+    * Module with several functions for validating the input data given by the user.
+
 ## Resources
 The images (for the content or the styles) included in this project are only for illustrative purposes and are nonprofitable.
 
